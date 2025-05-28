@@ -1,0 +1,508 @@
+/* Reset some basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+.header {
+  background-color: #ff4d00;
+  padding: 10px 20px;
+}
+.header__content2 {
+  margin: 40px;
+}
+
+.nav__logo img {
+  height: 60px;
+}
+
+/* Navigation */
+nav.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 10px;
+}
+
+nav.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+nav.nav ul li {
+  position: relative;
+}
+
+nav.nav ul li a.D {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+nav.nav ul li a.D:hover {
+  background-color: #ff7f50;
+}
+.D{
+  margin: 50px;
+  font-size: 30px;
+}
+marquee{
+  font-size: 90px;
+  color: white;
+  margin-top: -10px;
+}
+.nav__logo-dark{
+height: 100px;
+border-radius: 50px;
+margin-right: 590px; 
+}
+
+/* Dropdown */
+.dropdown-content {
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: #333;
+  min-width: 150px;
+  z-index: 1;
+  flex-direction: column;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff7f50;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Header section */
+.header__container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+.header__image img {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.glow-text {
+  color: black;
+  border: 1px solid black;
+  background-color: #ffb347;
+  font-weight: bold;
+  font-size: 20px;
+  text-shadow: 1px 1px 8px #ffb347;
+}
+
+.header__content h1 {
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+.header__content span {
+  color: #ff4d00;
+}
+
+/* Juice Image */
+.hero-img img {
+  width: 250px;
+}
+
+/* Section styles */
+.section__container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section__header {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  text-align: center;
+  background: orange;
+}
+
+.section__description {
+  max-width: 700px;
+  margin-bottom: 30px;
+}
+
+/* Cards */
+.order__grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.order__card {
+  background: ;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  padding: 20px;
+  width: calc(33% - 20px);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.order__card:hover {
+  transform: translateY(-5px);
+  background:whitesmoke;
+}
+
+.order__card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn {
+  background-color: #ff4d00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background-color: #e63e00;
+}
+
+/* Events */
+.event__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event__image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.event__details {
+  flex: 1;
+}
+
+/* Reservation form */
+.reservation form {
+  display: grid;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.reservation input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  padding: 30px 10px;
+}
+
+.footer__container .h {
+  margin-bottom: 10px;
+}
+
+#A {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #aaa;
+}
+/*----------------------------------------------ចលនា---------------------------------------------*/
+/* Animation for burger image */
+.header__image img {
+  animation: floatBurger 3s ease-in-out infinite;
+}
+
+@keyframes floatBurger {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }
+}
+
+/* Animation for juice image */
+.hero-img img {
+  animation: pulseJuice 2s ease-in-out infinite;
+}
+
+@keyframes pulseJuice {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+/*----------------------------------------------ចលនា---------------------------------------------*/
+/*-----------------------------------------------ភ្លេីងរ--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីងរ--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+.header{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  color: white;
+  padding: 20px;
+  z-index: 1;
+  width: 100%;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  background: linear-gradient(45deg, red, orange, yellow, green, cyan, blue, violet, red);
+  background-size: 400% 400%;
+  z-index: -1;
+  filter: blur(10px);
+  border-radius: 10px;
+  animation: glowRun 6s linear infinite;
+}
+
+@keyframes glowRun {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/*-----------------------------------------------ភ្លេីង--------------------------------------------*/
+/* ----------------------------------------------menu page--------------------------------------- */
+/* Reset & Base Styles */
+.oder {
+  text-align: center;
+  font-size: 40px;
+  color: blue;
+  margin: 20px 0;
+}
+
+/* Food Items Grid */
+.image {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.img {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.img:hover {
+  transform: translateY(-5px);
+  background: wheat;
+}
+
+.img img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.price {
+  color: #e63946; /* Red for price */
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+/* Order Button */
+.download-btn {
+  display: inline-block;
+  background: orange;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.download-btn:hover{
+  background-color: #e63946;
+}
+/* ======================= Responsiv website ======================= */
+@media (max-width: 1024px) {
+  .nav__logo-dark {
+    margin-right: 100px;
+    height: 80px;
+  }
+
+  .D {
+    font-size: 24px;
+    margin: 20px;
+  }
+
+  marquee {
+    font-size: 60px;
+  }
+
+  .header__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .header__image img {
+    width: 250px;
+  }
+
+  .hero-img img {
+    width: 200px;
+  }
+
+  .order__card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .nav.nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__logo-dark {
+    margin-right: 0;
+    height: 70px;
+  }
+
+  nav.nav ul {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .D {
+    font-size: 20px;
+    margin: 10px;
+  }
+
+  marquee {
+    font-size: 40px;
+    margin-top: 0;
+  }
+
+  .header__container {
+    padding: 20px 10px;
+  }
+
+  .header__image img {
+    width: 200px;
+  }
+
+  .hero-img img {
+    width: 150px;
+  }
+
+  .order__grid {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .order__card {
+    width: 100%;
+  }
+
+  .section__header {
+    font-size: 22px;
+  }
+
+  .image {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
+
+  .oder {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .nav__logo-dark {
+    height: 60px;
+  }
+
+  .D {
+    font-size: 16px;
+    margin: 8px;
+  }
+
+  marquee {
+    font-size: 30px;
+  }
+
+  .header__content h1 {
+    font-size: 28px;
+  }
+
+  .btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .download-btn {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+
